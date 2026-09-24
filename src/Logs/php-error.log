@@ -1,0 +1,8 @@
+[23-Sep-2026 14:55:42 America/Bogota] PHP Warning:  Undefined array key "idToken" in C:\xampp\htdocs\store\src\Models\UserModel.php on line 30
+[23-Sep-2026 14:55:42 America/Bogota] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\UserModel::$id_token of type string in C:\xampp\htdocs\store\src\Models\UserModel.php:30
+Stack trace:
+#0 C:\xampp\htdocs\store\src\Controllers\UserController.php(71): App\Models\UserModel->__construct(Array)
+#1 C:\xampp\htdocs\store\src\Routes\router.php(26): App\Controllers\UserController::post('user/')
+#2 C:\xampp\htdocs\store\public\index.php(10): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\store\src\Models\UserModel.php on line 30
